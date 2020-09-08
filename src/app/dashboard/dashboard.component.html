@@ -1,0 +1,7 @@
+
+<div class="dashboard row"*ngIf="petsGroupedByGender$ | async as petGroups">
+  <ng-container *ngFor="let petGroup of petGroups| keyvalue">
+    <pm-pet-list class="col-sm-12 col-md-6" [listHeader]="petGroup.key" [petList]="petGroup.value | filterByPetType: 'Cat'"></pm-pet-list>
+  </ng-container>
+
+</div>

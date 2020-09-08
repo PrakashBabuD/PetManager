@@ -1,0 +1,7 @@
+<div class="petlist">
+<h4 class="petlist__header">{{ listHeader }}</h4>
+<ng-container *ngIf="petList | orderBy:'asc':'name' as pets" >
+  <pm-pet-item *ngFor="let pet of pets; let i = index" [pet]="pet">
+  </pm-pet-item>
+</ng-container>
+</div>

@@ -1,0 +1,14 @@
+.pet-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  padding: 5px 20px;
+  &__content{
+    padding-left: 20px;
+    *{
+      margin:0;
+    }
+  }
+}
