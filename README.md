@@ -13,12 +13,13 @@ It is a responsive application which shows data in2 columns for large screens an
 
 ![Mobile Resolution](https://petmanager.s3-ap-southeast-2.amazonaws.com/pet-manager_mobile_resolution.PNG)
 
-## Unite testing 
+## Unit testing 
 
 This appliation consists of units tests for all the  components, pipes and services. It has very good coverage by covering all the core functionality of the app. 
 Please find the report below:
 
 ![Code Coverage](https://petmanager.s3-ap-southeast-2.amazonaws.com/code-coverage.PNG)
+![Test Results](https://petmanager.s3-ap-southeast-2.amazonaws.com/test_results.PNG)
 
 ## Architecure 
 Application consits of root module(appmodule), two feature modules,shared module and services.
@@ -38,10 +39,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
