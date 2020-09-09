@@ -1,6 +1,10 @@
 # PetManager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+Application is deployed and is available at petmanagerapp.azurewebsites.net .
+
+It is Single Page Application developed using Angular 10.0.8.
+
 
 ## Development server
 
