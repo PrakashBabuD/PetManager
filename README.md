@@ -6,6 +6,26 @@ Application is deployed and is available at http://petmanagerapp.azurewebsites.n
 
 It is Single Page Application developed using Angular 10.0.8.
 
+## Responsive 
+It is a responsive application which shows data in2 columns for large screens and in a single column for smaller screen like mobile 
+Tablet:
+![Desktop Resolution](https://petmanager.s3-ap-southeast-2.amazonaws.com/pet-manager_tablet_resolution.PNG)
+
+Mobile: 
+![Mobile Resolution](https://petmanager.s3-ap-southeast-2.amazonaws.com/pet-manager_mobile_resolution.PNG)
+
+## Unite testing 
+
+This appliation consists of units tests for all the  components, pipes and services. It has very good coverage by covering all the core functionality of the app.Please find the report below:
+
+![Code Coverage](https://petmanager.s3-ap-southeast-2.amazonaws.com/code-coverage.PNG)
+
+
+## Architecure 
+Application consits of root module(appmodule), feature modules,shared modules and services.
+
+
+
 
 ## Development server
 
