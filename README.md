@@ -8,32 +8,28 @@ It is Single Page Application developed using Angular 10.0.8.
 
 ## Responsive 
 It is a responsive application which shows data in2 columns for large screens and in a single column for smaller screen like mobile 
-Tablet:
+
 ![Desktop Resolution](https://petmanager.s3-ap-southeast-2.amazonaws.com/pet-manager_tablet_resolution.PNG)
 
-Mobile: 
 ![Mobile Resolution](https://petmanager.s3-ap-southeast-2.amazonaws.com/pet-manager_mobile_resolution.PNG)
 
 ## Unite testing 
 
-This appliation consists of units tests for all the  components, pipes and services. It has very good coverage by covering all the core functionality of the app.Please find the report below:
+This appliation consists of units tests for all the  components, pipes and services. It has very good coverage by covering all the core functionality of the app. 
+Please find the report below:
 
 ![Code Coverage](https://petmanager.s3-ap-southeast-2.amazonaws.com/code-coverage.PNG)
 
-
 ## Architecure 
-Application consits of root module(appmodule), feature modules,shared modules and services.
-
-
+Application consits of root module(appmodule), two feature modules,shared module and services.
+Feature modules conists of code related to displaying lists.
+Shared modules conists of reusable components like pipes which can be used in other feature modules.
+Services are kept in folder called "services" and provided directly in appmodule. (This can also be part of the core module).
 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
