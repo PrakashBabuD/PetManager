@@ -26,7 +26,12 @@ Application consits of root module(appmodule), two feature modules,shared module
 Feature modules conists of code related to displaying lists.
 Shared modules conists of reusable components like pipes which can be used in other feature modules.
 Services are kept in folder called "services" and provided directly in appmodule. (This can also be part of the core module).
+Server urls are mentioned in enironment file.
 
+## Solution Approach
+Application consumes api from a external server. PetsService then groups the data based on the owner's gender and exposes data as rxjs observable stream.
+Dashboard Component then renders the groups in the view. Although, grouping is done based on the "gender", service can group based on any property of person like age and name.
+Further, the pets data  is then filtered using "filterByPetType" pipe to display only cats and sorted in ascending ording using "orderBy" custom pipes. 
 
 ## Development server
 
