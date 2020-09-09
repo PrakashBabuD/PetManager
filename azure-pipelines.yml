@@ -20,3 +20,10 @@ steps:
     npm install
     ng build --prod
   displayName: 'npm install and build'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Free Trial(6495e401-9423-4ea9-bb4c-20841f9fd64c)'
+    appType: 'webApp'
+    WebAppName: 'PetManagerApp'
+    packageForLinux: 'dist/'
