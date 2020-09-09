@@ -29,9 +29,7 @@ Services are kept in folder called "services" and provided directly in appmodule
 Server urls are mentioned in enironment file.
 
 ## Solution Approach
-Application consumes api from a external server. PetsService then groups the data based on the owner's gender and exposes data as rxjs observable stream.
-Dashboard Component then renders the groups in the view. Although, grouping is done based on the "gender", service can group based on any property of person like age and name.
-Further, the pets data  is then filtered using "filterByPetType" pipe to display only cats and sorted in ascending ording using "orderBy" custom pipes. 
+Application consumes api from a external server which consists of data related to pet owners. PetsService then groups the data based on the owner's gender and exposes data as rxjs observable stream.Although, grouping is done based on the "gender", service can group based on any property of person like age and name.Dashboard Component then renders the groups in the view. Further, the pets data  is then filtered using "filterByPetType" pipe to display only cats and sorted in ascending ording using "orderBy" custom pipes. 
 
 ## Development server
 
